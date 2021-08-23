@@ -29,7 +29,7 @@ def sercret_key():
 SECRET_KEY = sercret_key()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['hospitalmanagementcovid19.herokuapp.com', '127.0.0.1']
 
